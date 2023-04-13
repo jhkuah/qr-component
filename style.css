@@ -22,9 +22,10 @@ img {
     border-radius: .5rem;
 }
 
-.qr-text{
+.qr-text {
     margin: 10px 40px
 }
+
 h1 {
     font-size: 20px;
     font-weight: 700;
@@ -36,4 +37,12 @@ h1 {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+        width: 96%;
+        margin: 2rem auto;
+    }
 }
